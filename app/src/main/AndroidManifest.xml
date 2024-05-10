@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        tools:targetApi="34"
+        android:name=".context.ApplicationContext"
+        >
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AddAttandanceSessionActivity">
+        </activity>
+        <activity android:name=".activity.AddAttendanceActivity">
+        </activity>
+        <activity android:name=".activity.ViewAttandanceActivity">
+
+        </activity>
+        <activity android:name=".activity.ViewAttendancePerStudentActivity">
+
+        </activity>
+        <activity android:name=".activity.LoginActivity">
+
+        </activity>
+        <activity android:name=".activity.ViewStudentByBranchYear">
+        </activity>
+        <activity android:name=".activity.MenuActivity">
+
+        </activity>
+        <activity android:name=".activity.AddStudentActivity">
+
+        </activity>
+        <activity android:name=".activity.AddFacultyActivity">
+
+        </activity>
+        <activity android:name=".activity.ViewFacultyActivity">
+
+        </activity>
+        <activity android:name=".activity.ViewStudentActivity">
+
+        </activity>
+        <activity android:name=".activity.ViewAttendanceByFacultyActivity">
+
+        </activity>
+    </application>
+
+</manifest>
